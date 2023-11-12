@@ -12,10 +12,17 @@ EU<sup>1</sup>. As of time of publication, the information from Q3
 This project is built in Python 3.11.4 and its respository is organized 
 into the following sections:
 1. `figures/` -> Stores all figures for data visualization
-2. `results/` -> 
+2. `results/` -> *[empty for now]*
 3. `report/` -> Reports and presentions on methodology and the pipeline
 4. `src/` -> Contains all the code for:
 	* Exploratory Data Analysis in `eda.ipynb`
+
+The packages used in this project are:
+* pandas 1.5.3
+* numpy 1.24.3
+* matplotlib 3.7.1
+* seaborn 0.12.2
+* scikit-learn 1.3.0
 
 <sub><sup>1</sup>*This includes the 27 EU member states as well as 
 related states 
