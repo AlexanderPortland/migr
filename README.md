@@ -11,10 +11,12 @@ EU<sup>1</sup>. As of time of publication, the information from Q3
 
 This project is built in Python 3.11.4 and its respository is organized 
 into the following sections:
-&nbsp;&nbsp;&nbsp;&nbsp;hello
-&nbsp;&nbsp;&nbsp;&nbsp;hello
+1. `figures/` -> Stores all figures for data visualization
+2. `results/` -> 
+3. `report/` -> Reports and presentions on methodology and the pipeline
+4. `src/` -> Contains all the code for:
+	* Exploratory Data Analysis in `eda.ipynb`
 
-
-<sub>1_This includes the 27 EU member states as well as related states 
+<sub>1*This includes the 27 EU member states as well as related states 
 like the UK (with data up until 2020), Montenegro, Iceland, 
-Liechtenstein, Norway, and Switzerland_</sub>
+Liechtenstein, Norway, and Switzerland*</sub>
