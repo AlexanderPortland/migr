@@ -17,6 +17,7 @@ into the following sections:
 4. `src/` -> Contains all the code for:
 	* Exploratory Data Analysis in `eda.ipynb`
 
-<sub>1*This includes the 27 EU member states as well as related states 
+<sub><sup>1</sup>*This includes the 27 EU member states as well as 
+related states 
 like the UK (with data up until 2020), Montenegro, Iceland, 
 Liechtenstein, Norway, and Switzerland*</sub>
