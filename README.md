@@ -16,6 +16,10 @@ into the following sections:
 3. `report/` -> Reports and presentions on methodology and the pipeline
 4. `src/` -> Contains all the code for:
 	* Exploratory Data Analysis in `eda.ipynb`
+	* Data Splitting, Preprocessing, and Model 
+Development in `model-development.ipynb`
+	* Model Evaluation and Interpreting in 
+`model-evaluation.ipynb`	
 
 The packages used in this project are:
 * pandas 1.5.3
@@ -23,6 +27,7 @@ The packages used in this project are:
 * matplotlib 3.7.1
 * seaborn 0.12.2
 * scikit-learn 1.3.0
+
 
 <sub><sup>1</sup>*This includes the 27 EU member states as well as 
 related states 
