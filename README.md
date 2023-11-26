@@ -21,16 +21,15 @@ Development in `model-development.ipynb`
 	* Model Evaluation and Interpreting in 
 `model-evaluation.ipynb`	
 
-The packages used in this project are:
+The packages used in this project listed below. You 
+can download all these dependencies into a new
+conda environment by running `conda env create -f
+environment.yml`.
 * pandas 1.5.3
 * numpy 1.24.3
 * matplotlib 3.7.1
 * seaborn 0.12.2
 * scikit-learn 1.3.0
-
-You can download all these dependencies into a new
-conda environment by running `conda env create -f
-environment.yml`
 
 
 <sub><sup>1</sup>*This includes the 27 EU member states as well as 
