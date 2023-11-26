@@ -27,6 +27,7 @@ The packages used in this project are:
 * matplotlib 3.7.1
 * seaborn 0.12.2
 * scikit-learn 1.3.0
+
 You can download all these dependencies into a new
 conda environment by running `conda env create -f
 environment.yml`
