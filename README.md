@@ -21,10 +21,10 @@ Development in `model-development.ipynb`
 	* Model Evaluation and Interpreting in 
 `model-evaluation.ipynb`	
 
-The packages used in this project listed below. You 
+The packages used in this project are listed below. You 
 can download all these dependencies into a new
-conda environment by running `conda env create -f
-environment.yml`.
+conda environment by running `conda env -n migr create 
+-f environment.yml` and then `conda activate migr`.
 * pandas 1.5.3
 * numpy 1.24.3
 * matplotlib 3.7.1
@@ -33,6 +33,6 @@ environment.yml`.
 
 
 <sub><sup>1</sup>*This includes the 27 EU member states as well as 
-related states 
+affiliated states 
 like the UK (with data up until 2020), Montenegro, Iceland, 
 Liechtenstein, Norway, and Switzerland*</sub>
