@@ -11,8 +11,9 @@ EU<sup>1</sup>. As of time of publication, the information from Q3
 
 This project is built in Python 3.11.4 and its respository is organized 
 into the following sections:
-1. `figures/` -> Stores all figures for data visualization
-2. `results/` -> *[empty for now]*
+1. `figures/` -> All figures for data visualization
+2. `results/` -> Trained models
+	* Some explanation of the significance of each can be found in `model_notes.txt`
 3. `report/` -> Reports and presentions on methodology and the pipeline
 4. `src/` -> Contains all the code for:
 	* Exploratory Data Analysis in `eda.ipynb`
