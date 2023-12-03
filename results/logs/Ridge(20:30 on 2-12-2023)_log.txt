@@ -1,0 +1,233 @@
+[!] looking at model: Ridge(20:30 on 2-12-2023)
+	[*] doing initial dataset splitting
+		[+] fold 1
+		[+] fold 2
+		[+] fold 3
+	[*] looking at hyperparameters {'alpha': 0.01}
+split data 	-- in 9.298324584960938e-06s
+made pipeline 	-- in 0.0001316070556640625s
+fit pipeline 	-- in 11.739502191543579s
+eval pipeline 	-- in 4.241498947143555s
+		[*] fold 1 complete (test score of 4.03857183989241) -- in 15.982s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0001862049102783203s
+fit pipeline 	-- in 68.01466202735901s
+eval pipeline 	-- in 3.5152032375335693s
+		[*] fold 2 complete (test score of 19.97768988872798) -- in 71.53s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 7.605552673339844e-05s
+fit pipeline 	-- in 66.31133103370667s
+eval pipeline 	-- in 3.4740359783172607s
+		[*] fold 3 complete (test score of 8.96754627458243) -- in 69.792s
+		[+] final score for params of 10.994602667734272 -- in 157.309s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 0.03511191734215131}
+split data 	-- in 5.9604644775390625e-06s
+made pipeline 	-- in 4.1961669921875e-05s
+fit pipeline 	-- in 5.246031045913696s
+eval pipeline 	-- in 3.4464027881622314s
+		[*] fold 1 complete (test score of 4.0385718510471715) -- in 8.694s
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 0.00014209747314453125s
+fit pipeline 	-- in 42.79794096946716s
+eval pipeline 	-- in 5.392953157424927s
+		[*] fold 2 complete (test score of 19.977690640242102) -- in 48.191s
+split data 	-- in 1.0251998901367188e-05s
+made pipeline 	-- in 0.0001227855682373047s
+fit pipeline 	-- in 70.1093180179596s
+eval pipeline 	-- in 4.91940975189209s
+		[*] fold 3 complete (test score of 8.967545113036824) -- in 75.029s
+		[+] final score for params of 10.994602534775368 -- in 131.916s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 0.12328467394420659}
+split data 	-- in 5.0067901611328125e-06s
+made pipeline 	-- in 4.291534423828125e-05s
+fit pipeline 	-- in 6.7016379833221436s
+eval pipeline 	-- in 4.902107238769531s
+		[*] fold 1 complete (test score of 4.0385718903890675) -- in 11.605s
+split data 	-- in 9.298324584960938e-06s
+made pipeline 	-- in 0.00020599365234375s
+fit pipeline 	-- in 43.97397708892822s
+eval pipeline 	-- in 4.843296051025391s
+		[*] fold 2 complete (test score of 19.97769327895175) -- in 48.818s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0001811981201171875s
+fit pipeline 	-- in 70.81480884552002s
+eval pipeline 	-- in 4.9538350105285645s
+		[*] fold 3 complete (test score of 8.967541035143691) -- in 75.769s
+		[+] final score for params of 10.994602068161504 -- in 136.196s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 0.4328761281083057}
+split data 	-- in 4.0531158447265625e-06s
+made pipeline 	-- in 4.601478576660156e-05s
+fit pipeline 	-- in 6.613668918609619s
+eval pipeline 	-- in 4.221752166748047s
+		[*] fold 1 complete (test score of 4.038572028587543) -- in 10.836s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.00010895729064941406s
+fit pipeline 	-- in 42.72895812988281s
+eval pipeline 	-- in 4.900238037109375s
+		[*] fold 2 complete (test score of 19.97770254396226) -- in 47.63s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 0.00015306472778320312s
+fit pipeline 	-- in 68.03613305091858s
+eval pipeline 	-- in 4.2811760902404785s
+		[*] fold 3 complete (test score of 8.967526717242409) -- in 72.318s
+		[+] final score for params of 10.994600429930736 -- in 130.789s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 1.5199110829529332}
+split data 	-- in 7.152557373046875e-06s
+made pipeline 	-- in 3.0040740966796875e-05s
+fit pipeline 	-- in 6.589662075042725s
+eval pipeline 	-- in 4.313148260116577s
+		[*] fold 1 complete (test score of 4.038572513989584) -- in 10.903s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.00014209747314453125s
+fit pipeline 	-- in 44.41615414619446s
+eval pipeline 	-- in 4.886768817901611s
+		[*] fold 2 complete (test score of 19.97773507512758) -- in 49.303s
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 0.0001671314239501953s
+fit pipeline 	-- in 74.45530605316162s
+eval pipeline 	-- in 4.909390926361084s
+		[*] fold 3 complete (test score of 8.967476447115056) -- in 79.365s
+		[+] final score for params of 10.994594678744072 -- in 139.575s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 5.336699231206307}
+split data 	-- in 3.814697265625e-06s
+made pipeline 	-- in 4.410743713378906e-05s
+fit pipeline 	-- in 6.8972790241241455s
+eval pipeline 	-- in 4.956925868988037s
+		[*] fold 1 complete (test score of 4.03857422013879) -- in 11.855s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.00015807151794433594s
+fit pipeline 	-- in 42.86171007156372s
+eval pipeline 	-- in 5.079719066619873s
+		[*] fold 2 complete (test score of 19.97784929751084) -- in 47.942s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.00019812583923339844s
+fit pipeline 	-- in 75.62331795692444s
+eval pipeline 	-- in 4.056081056594849s
+		[*] fold 3 complete (test score of 8.967299972707492) -- in 79.68s
+		[+] final score for params of 10.994574496785708 -- in 139.479s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 18.73817422860383}
+split data 	-- in 4.0531158447265625e-06s
+made pipeline 	-- in 3.814697265625e-05s
+fit pipeline 	-- in 6.603683233261108s
+eval pipeline 	-- in 3.9764299392700195s
+		[*] fold 1 complete (test score of 4.038580232955401) -- in 10.586s
+split data 	-- in 1.3828277587890625e-05s
+made pipeline 	-- in 0.00013399124145507812s
+fit pipeline 	-- in 48.3661789894104s
+eval pipeline 	-- in 4.064718961715698s
+		[*] fold 2 complete (test score of 19.978250344624037) -- in 52.436s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.00015401840209960938s
+fit pipeline 	-- in 74.97878003120422s
+eval pipeline 	-- in 2.784524917602539s
+		[*] fold 3 complete (test score of 8.966680751600908) -- in 77.771s
+		[+] final score for params of 10.994503776393449 -- in 140.794s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 65.79332246575676}
+split data 	-- in 2.6226043701171875e-06s
+made pipeline 	-- in 1.3828277587890625e-05s
+fit pipeline 	-- in 5.652690172195435s
+eval pipeline 	-- in 2.2059829235076904s
+		[*] fold 1 complete (test score of 4.038601616170374) -- in 7.859s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 3.0040740966796875e-05s
+fit pipeline 	-- in 31.49248719215393s
+eval pipeline 	-- in 2.316248893737793s
+		[*] fold 2 complete (test score of 19.979658379335184) -- in 33.809s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 4.1961669921875e-05s
+fit pipeline 	-- in 66.76349520683289s
+eval pipeline 	-- in 2.306844711303711s
+		[*] fold 3 complete (test score of 8.96451164261792) -- in 69.071s
+		[+] final score for params of 10.994257212707828 -- in 110.748s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 231.0129700083158}
+split data 	-- in 4.291534423828125e-06s
+made pipeline 	-- in 1.7881393432617188e-05s
+fit pipeline 	-- in 3.6578478813171387s
+eval pipeline 	-- in 1.9907281398773193s
+		[*] fold 1 complete (test score of 4.038679930514739) -- in 5.649s
+split data 	-- in 7.152557373046875e-07s
+made pipeline 	-- in 0.00010418891906738281s
+fit pipeline 	-- in 29.792556047439575s
+eval pipeline 	-- in 2.2646262645721436s
+		[*] fold 2 complete (test score of 19.984600773487404) -- in 32.059s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 4.696846008300781e-05s
+fit pipeline 	-- in 74.98405599594116s
+eval pipeline 	-- in 2.8359949588775635s
+		[*] fold 3 complete (test score of 8.956957720335565) -- in 77.832s
+		[+] final score for params of 10.993412808112568 -- in 115.566s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 811.1308307896855}
+split data 	-- in 5.245208740234375e-06s
+made pipeline 	-- in 3.409385681152344e-05s
+fit pipeline 	-- in 4.873880863189697s
+eval pipeline 	-- in 2.8670341968536377s
+		[*] fold 1 complete (test score of 4.038990750471004) -- in 7.741s
+split data 	-- in 5.9604644775390625e-06s
+made pipeline 	-- in 0.0013949871063232422s
+fit pipeline 	-- in 44.18282175064087s
+eval pipeline 	-- in 2.6109371185302734s
+		[*] fold 2 complete (test score of 20.001935201369342) -- in 46.805s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 0.00011801719665527344s
+fit pipeline 	-- in 65.83145809173584s
+eval pipeline 	-- in 2.826711893081665s
+		[*] fold 3 complete (test score of 8.93117757686692) -- in 68.664s
+		[+] final score for params of 10.990701176235754 -- in 123.232s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 2848.035868435799}
+split data 	-- in 5.0067901611328125e-06s
+made pipeline 	-- in 3.814697265625e-05s
+fit pipeline 	-- in 4.8877458572387695s
+eval pipeline 	-- in 2.901262044906616s
+		[*] fold 1 complete (test score of 4.040412303723394) -- in 7.791s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 8.821487426757812e-05s
+fit pipeline 	-- in 45.96913814544678s
+eval pipeline 	-- in 2.6276440620422363s
+		[*] fold 2 complete (test score of 20.062529742653467) -- in 48.598s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 0.0001289844512939453s
+fit pipeline 	-- in 68.50599908828735s
+eval pipeline 	-- in 3.150425910949707s
+		[*] fold 3 complete (test score of 8.848897118176982) -- in 71.67s
+		[+] final score for params of 10.983946388184615 -- in 128.061s
+		[!] new best param configuration, so saving model to path
+			[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
+	[*] looking at hyperparameters {'alpha': 10000.0}
+split data 	-- in 2.86102294921875e-06s
+made pipeline 	-- in 3.1948089599609375e-05s
+fit pipeline 	-- in 5.160757064819336s
+eval pipeline 	-- in 3.1834161281585693s
+		[*] fold 1 complete (test score of 4.047727470038466) -- in 8.345s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.0001289844512939453s
+fit pipeline 	-- in 45.645970821380615s
+eval pipeline 	-- in 2.6601529121398926s
+		[*] fold 2 complete (test score of 20.271271935115845) -- in 48.309s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 0.00015211105346679688s
+fit pipeline 	-- in 67.58115410804749s
+eval pipeline 	-- in 3.9983019828796387s
+		[*] fold 3 complete (test score of 8.633912238490886) -- in 71.583s
+		[+] final score for params of 10.984303881215064 -- in 128.24s
+	[+] best param configuration of {'alpha': 2848.035868435799} found with score 10.983946388184615
+	[+] saved model to ../results/Ridge(20:30 on 2-12-2023).pkl
