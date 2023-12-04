@@ -1,0 +1,27 @@
+*DONE* Ridge(19:57 on 2-12-2023).pkl
+	- good, but the best alpha value was the highest one tested, so
+	  succeeded by Ridge(20:30 on 2-12-2023).pkl which checked up
+	  to 10,000 alpha
+
+*DIED* RandomForestRegressor(20:08 on 2-12-2023)
+	- first RF model post-preprocessing error fix
+	- looked underwhelming but still on max_depth of 1, so i hope
+	  it'll get much more effective with more depth and features
+	- died prematurely bc of concurrent kernel issues at depth 3
+	  and features 0.2, so still hard to tell.
+		- will try again but not overly expectant
+
+*DONE* Ridge(20:30 on 2-12-2023)
+	- succeeding Ridge(19:57 on 2-12-2023) with a wider array of
+	  tested alphas 
+	- new best alpha value is second highest, so looks good
+		* if wanted to, could redo with more fine-tuned
+		  options between the two to further optimize
+
+*IN PROGRESS (dev5)* RandomForestRegressor(1:01 on 3-12-2023)
+	- succeeding RandomForestRegressor(20:08 on 2-12-2023), this 
+	  algorithm trained overnight to check higher max_layers and
+	  feature counts.
+		- is taking a long time to train (~1hr per param combo)
+		  for no apparent boost in effectiveness over the faster
+		  linear models
