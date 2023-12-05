@@ -1,0 +1,1291 @@
+[!] looking at XGBoost model: XGBRegressor(0:14 on 
+4-12-2023)
+	[*] doing initial dataset splitting
+		[+] fold 1
+		[+] fold 2
+		[+] fold 3
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+1.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 2.1457672119140625e-06s
+made pipeline 	-- in 4.506111145019531e-05s
+preprocess data 	-- in 4.15549898147583s
+fit pipeline 	-- in 409.4049150943756s
+eval pipeline 	-- in 2.698603868484497s
+		[*] fold 1 complete (test score of 
+4.0668286002971605) -- in 416.259s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0003521442413330078s
+preprocess data 	-- in 7.259782075881958s
+fit pipeline 	-- in 356.9064691066742s
+eval pipeline 	-- in 2.0776560306549072s
+		[*] fold 2 complete (test score of 
+51.81766518384351) -- in 366.245s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0006721019744873047s
+preprocess data 	-- in 11.199206829071045s
+fit pipeline 	-- in 90.25797200202942s
+eval pipeline 	-- in 0.5453670024871826s
+		[*] fold 3 complete (test score of 
+9.40752689354248) -- in 102.004s
+		[+] final score for params of 
+21.764006892561053 -- in 884.509s
+		[!] new best param configuration, so 
+saving model to path
+			[+] saved model to 
+../results/XGBRegressor(0:14 on 4-12-2023).pkl
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+1.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 3.314018249511719e-05s
+preprocess data 	-- in 3.193575859069824s
+fit pipeline 	-- in 271.62820982933044s
+eval pipeline 	-- in 1.7546579837799072s
+		[*] fold 1 complete (test score of 
+4.0899741698181815) -- in 276.577s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.00022602081298828125s
+preprocess data 	-- in 7.633310079574585s
+fit pipeline 	-- in 414.865275144577s
+eval pipeline 	-- in 2.2687947750091553s
+		[*] fold 2 complete (test score of 
+51.3244026522287) -- in 424.768s
+split data 	-- in 6.9141387939453125e-06s
+made pipeline 	-- in 0.0003330707550048828s
+preprocess data 	-- in 11.327362775802612s
+fit pipeline 	-- in 79.91521310806274s
+eval pipeline 	-- in 0.5017240047454834s
+		[*] fold 3 complete (test score of 
+9.365838251650198) -- in 91.745s
+		[+] final score for params of 
+21.593405024565694 -- in 793.09s
+		[!] new best param configuration, so 
+saving model to path
+			[+] saved model to 
+../results/XGBRegressor(0:14 on 4-12-2023).pkl
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+1.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 2.5987625122070312e-05s
+preprocess data 	-- in 3.9722542762756348s
+fit pipeline 	-- in 484.4581809043884s
+eval pipeline 	-- in 2.999764919281006s
+		[*] fold 1 complete (test score of 
+4.070364229820007) -- in 491.431s
+split data 	-- in 1.52587890625e-05s
+made pipeline 	-- in 0.0004401206970214844s
+preprocess data 	-- in 8.15670919418335s
+fit pipeline 	-- in 441.8271527290344s
+eval pipeline 	-- in 2.4634950160980225s
+		[*] fold 2 complete (test score of 
+51.69484550352108) -- in 452.448s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0003299713134765625s
+preprocess data 	-- in 11.651729106903076s
+fit pipeline 	-- in 96.75527286529541s
+eval pipeline 	-- in 0.5954649448394775s
+		[*] fold 3 complete (test score of 
+9.329188546916305) -- in 109.003s
+		[+] final score for params of 
+21.698132760085798 -- in 1052.883s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+10.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.2874603271484375e-05s
+made pipeline 	-- in 2.47955322265625e-05s
+preprocess data 	-- in 3.3993279933929443s
+fit pipeline 	-- in 526.6930208206177s
+eval pipeline 	-- in 3.3824548721313477s
+		[*] fold 1 complete (test score of 
+4.326781959525147) -- in 533.475s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00048828125s
+preprocess data 	-- in 7.941779136657715s
+fit pipeline 	-- in 580.878114938736s
+eval pipeline 	-- in 3.275974988937378s
+		[*] fold 2 complete (test score of 
+53.46482149398508) -- in 592.097s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0004119873046875s
+preprocess data 	-- in 11.972364664077759s
+fit pipeline 	-- in 121.54278779029846s
+eval pipeline 	-- in 0.7211999893188477s
+		[*] fold 3 complete (test score of 
+9.814463496434186) -- in 134.237s
+		[+] final score for params of 
+22.535355649981472 -- in 1259.81s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+10.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 1.6689300537109375e-05s
+preprocess data 	-- in 4.234912157058716s
+fit pipeline 	-- in 511.27153396606445s
+eval pipeline 	-- in 3.267261028289795s
+		[*] fold 1 complete (test score of 
+4.3551159897832195) -- in 518.774s
+split data 	-- in 1.1682510375976562e-05s
+made pipeline 	-- in 0.0004119873046875s
+preprocess data 	-- in 8.206279277801514s
+fit pipeline 	-- in 581.2604389190674s
+eval pipeline 	-- in 3.2881011962890625s
+		[*] fold 2 complete (test score of 
+53.094970558035506) -- in 592.756s
+split data 	-- in 1.0251998901367188e-05s
+made pipeline 	-- in 0.0004050731658935547s
+preprocess data 	-- in 11.840118169784546s
+fit pipeline 	-- in 133.1866660118103s
+eval pipeline 	-- in 0.7820949554443359s
+		[*] fold 3 complete (test score of 
+9.763566170820107) -- in 145.81s
+		[+] final score for params of 
+22.404550906212947 -- in 1257.34s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+10.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.811981201171875e-05s
+made pipeline 	-- in 1.8835067749023438e-05s
+preprocess data 	-- in 3.556568145751953s
+fit pipeline 	-- in 511.8183329105377s
+eval pipeline 	-- in 3.287729263305664s
+		[*] fold 1 complete (test score of 
+4.3603837446030775) -- in 518.663s
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 0.00045800209045410156s
+preprocess data 	-- in 8.081273078918457s
+fit pipeline 	-- in 589.2930479049683s
+eval pipeline 	-- in 3.341264247894287s
+		[*] fold 2 complete (test score of 
+53.059537701926196) -- in 600.717s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0006392002105712891s
+preprocess data 	-- in 11.80312705039978s
+fit pipeline 	-- in 125.84820199012756s
+eval pipeline 	-- in 0.7252910137176514s
+		[*] fold 3 complete (test score of 
+9.590499846502725) -- in 138.378s
+		[+] final score for params of 
+22.336807097677333 -- in 1257.758s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.1, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.6689300537109375e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 4.285064935684204s
+fit pipeline 	-- in 264.06778597831726s
+eval pipeline 	-- in 1.7065858840942383s
+		[*] fold 1 complete (test score of 
+4.1133673507855395) -- in 270.06s
+split data 	-- in 1.4781951904296875e-05s
+made pipeline 	-- in 0.0002617835998535156s
+preprocess data 	-- in 8.550699949264526s
+fit pipeline 	-- in 188.98514103889465s
+eval pipeline 	-- in 1.1044888496398926s
+		[*] fold 2 complete (test score of 
+53.7115489176898) -- in 198.641s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.00029397010803222656s
+preprocess data 	-- in 11.99342393875122s
+fit pipeline 	-- in 91.42423033714294s
+eval pipeline 	-- in 0.5634670257568359s
+		[*] fold 3 complete (test score of 
+9.354743260515285) -- in 103.982s
+		[+] final score for params of 
+22.39321984299687 -- in 572.684s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.1, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.8835067749023438e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 3.4058897495269775s
+fit pipeline 	-- in 198.50492691993713s
+eval pipeline 	-- in 1.278339147567749s
+		[*] fold 1 complete (test score of 
+4.149048951566051) -- in 203.189s
+split data 	-- in 3.814697265625e-06s
+made pipeline 	-- in 0.00017786026000976562s
+preprocess data 	-- in 7.887896776199341s
+fit pipeline 	-- in 338.78580021858215s
+eval pipeline 	-- in 1.8538949489593506s
+		[*] fold 2 complete (test score of 
+53.682788835777195) -- in 348.528s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0002608299255371094s
+preprocess data 	-- in 11.741261959075928s
+fit pipeline 	-- in 83.63528084754944s
+eval pipeline 	-- in 0.5851829051971436s
+		[*] fold 3 complete (test score of 
+9.327794430709519) -- in 95.963s
+		[+] final score for params of 
+22.386544072684256 -- in 647.681s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.1, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.9073486328125e-05s
+made pipeline 	-- in 2.384185791015625e-05s
+preprocess data 	-- in 4.37993597984314s
+fit pipeline 	-- in 516.3832750320435s
+eval pipeline 	-- in 3.2751400470733643s
+		[*] fold 1 complete (test score of 
+4.0987866848936445) -- in 524.039s
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 0.00039505958557128906s
+preprocess data 	-- in 8.44815993309021s
+fit pipeline 	-- in 214.54363012313843s
+eval pipeline 	-- in 1.2395997047424316s
+		[*] fold 2 complete (test score of 
+53.54252385697068) -- in 224.232s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.00020313262939453125s
+preprocess data 	-- in 11.64185619354248s
+fit pipeline 	-- in 85.26670002937317s
+eval pipeline 	-- in 0.5588281154632568s
+		[*] fold 3 complete (test score of 
+8.916061470101395) -- in 97.468s
+		[+] final score for params of 
+22.18579067065524 -- in 845.74s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.7881393432617188e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.4099812507629395s
+fit pipeline 	-- in 518.84366106987s
+eval pipeline 	-- in 3.2250030040740967s
+		[*] fold 1 complete (test score of 
+4.1836870056394595) -- in 525.479s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0005059242248535156s
+preprocess data 	-- in 8.341049909591675s
+fit pipeline 	-- in 141.64990782737732s
+eval pipeline 	-- in 0.8463039398193359s
+		[*] fold 2 complete (test score of 
+54.00382452483912) -- in 150.838s
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 0.0001671314239501953s
+preprocess data 	-- in 11.578027963638306s
+fit pipeline 	-- in 91.28128695487976s
+eval pipeline 	-- in 0.5614118576049805s
+		[*] fold 3 complete (test score of 
+9.25651171060683) -- in 103.422s
+		[+] final score for params of 
+22.4813410803618 -- in 779.739s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.811981201171875e-05s
+made pipeline 	-- in 2.384185791015625e-05s
+preprocess data 	-- in 4.176026105880737s
+fit pipeline 	-- in 317.317006111145s
+eval pipeline 	-- in 2.0008530616760254s
+		[*] fold 1 complete (test score of 
+4.164477611226118) -- in 323.494s
+split data 	-- in 1.3828277587890625e-05s
+made pipeline 	-- in 0.0002529621124267578s
+preprocess data 	-- in 8.307087898254395s
+fit pipeline 	-- in 156.97150778770447s
+eval pipeline 	-- in 0.9396979808807373s
+		[*] fold 2 complete (test score of 
+53.88467924354145) -- in 166.219s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0001552104949951172s
+preprocess data 	-- in 11.70834469795227s
+fit pipeline 	-- in 88.31933903694153s
+eval pipeline 	-- in 0.5441901683807373s
+		[*] fold 3 complete (test score of 
+9.320834545310444) -- in 100.573s
+		[+] final score for params of 
+22.456663800026003 -- in 590.287s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.621246337890625e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.3916709423065186s
+fit pipeline 	-- in 513.6934401988983s
+eval pipeline 	-- in 3.0899510383605957s
+		[*] fold 1 complete (test score of 
+4.080516480566961) -- in 520.175s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0004029273986816406s
+preprocess data 	-- in 8.168270826339722s
+fit pipeline 	-- in 200.0175838470459s
+eval pipeline 	-- in 1.1603267192840576s
+		[*] fold 2 complete (test score of 
+53.74815585996432) -- in 209.347s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.00033092498779296875s
+preprocess data 	-- in 11.821791887283325s
+fit pipeline 	-- in 85.17737317085266s
+eval pipeline 	-- in 0.5309350490570068s
+		[*] fold 3 complete (test score of 
+9.106917916644695) -- in 97.531s
+		[+] final score for params of 
+22.311863419058657 -- in 827.054s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.01, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.71661376953125e-05s
+made pipeline 	-- in 2.3126602172851562e-05s
+preprocess data 	-- in 4.274831056594849s
+fit pipeline 	-- in 328.98194789886475s
+eval pipeline 	-- in 2.1014199256896973s
+		[*] fold 1 complete (test score of 
+4.15871357180658) -- in 335.359s
+split data 	-- in 1.52587890625e-05s
+made pipeline 	-- in 0.0002658367156982422s
+preprocess data 	-- in 8.237022876739502s
+fit pipeline 	-- in 142.5616331100464s
+eval pipeline 	-- in 0.8381030559539795s
+		[*] fold 2 complete (test score of 
+54.050097717854456) -- in 151.638s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00021314620971679688s
+preprocess data 	-- in 11.86427092552185s
+fit pipeline 	-- in 92.5374367237091s
+eval pipeline 	-- in 0.5711178779602051s
+		[*] fold 3 complete (test score of 
+9.274708337838945) -- in 104.974s
+		[+] final score for params of 
+22.494506542499995 -- in 591.971s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.01, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.621246337890625e-05s
+made pipeline 	-- in 2.2172927856445312e-05s
+preprocess data 	-- in 3.39263916015625s
+fit pipeline 	-- in 337.99715304374695s
+eval pipeline 	-- in 2.088886022567749s
+		[*] fold 1 complete (test score of 
+4.167060456665829) -- in 343.479s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00028324127197265625s
+preprocess data 	-- in 8.58260178565979s
+fit pipeline 	-- in 155.28164982795715s
+eval pipeline 	-- in 0.9201281070709229s
+		[*] fold 2 complete (test score of 
+53.81996619447998) -- in 164.785s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0003838539123535156s
+preprocess data 	-- in 11.650628805160522s
+fit pipeline 	-- in 87.21652030944824s
+eval pipeline 	-- in 0.5304439067840576s
+		[*] fold 3 complete (test score of 
+9.376452022819043) -- in 99.399s
+		[+] final score for params of 
+22.454492891321618 -- in 607.663s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+0.01, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.9788742065429688e-05s
+made pipeline 	-- in 2.384185791015625e-05s
+preprocess data 	-- in 4.246790170669556s
+fit pipeline 	-- in 522.3082439899445s
+eval pipeline 	-- in 3.307297945022583s
+		[*] fold 1 complete (test score of 
+4.074529270791248) -- in 529.863s
+split data 	-- in 1.2874603271484375e-05s
+made pipeline 	-- in 0.0004239082336425781s
+preprocess data 	-- in 8.604315996170044s
+fit pipeline 	-- in 190.19110012054443s
+eval pipeline 	-- in 1.1082630157470703s
+		[*] fold 2 complete (test score of 
+53.69600282001376) -- in 199.905s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00017786026000976562s
+preprocess data 	-- in 11.64835500717163s
+fit pipeline 	-- in 85.22846007347107s
+eval pipeline 	-- in 0.5509328842163086s
+		[*] fold 3 complete (test score of 
+9.125864965215097) -- in 97.429s
+		[+] final score for params of 
+22.298799018673368 -- in 827.197s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+100.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.8835067749023438e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 3.4844911098480225s
+fit pipeline 	-- in 518.0225200653076s
+eval pipeline 	-- in 3.2940502166748047s
+		[*] fold 1 complete (test score of 
+4.698414790461345) -- in 524.801s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0004260540008544922s
+preprocess data 	-- in 8.244863986968994s
+fit pipeline 	-- in 596.6462247371674s
+eval pipeline 	-- in 3.3642401695251465s
+		[*] fold 2 complete (test score of 
+59.69497972111555) -- in 608.256s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.0004410743713378906s
+preprocess data 	-- in 11.718045949935913s
+fit pipeline 	-- in 200.33367609977722s
+eval pipeline 	-- in 1.0863690376281738s
+		[*] fold 3 complete (test score of 
+9.578460630814861) -- in 213.139s
+		[+] final score for params of 
+24.65728504746392 -- in 1346.197s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+100.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.7881393432617188e-05s
+made pipeline 	-- in 2.193450927734375e-05s
+preprocess data 	-- in 4.213565826416016s
+fit pipeline 	-- in 519.0589118003845s
+eval pipeline 	-- in 3.346360921859741s
+		[*] fold 1 complete (test score of 
+4.6938361772933375) -- in 526.619s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00046706199645996094s
+preprocess data 	-- in 7.900118112564087s
+fit pipeline 	-- in 600.1842067241669s
+eval pipeline 	-- in 3.362027168273926s
+		[*] fold 2 complete (test score of 
+59.627846027622155) -- in 611.447s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.00041985511779785156s
+preprocess data 	-- in 11.666123151779175s
+fit pipeline 	-- in 210.2074077129364s
+eval pipeline 	-- in 1.1330418586730957s
+		[*] fold 3 complete (test score of 
+9.632830030806916) -- in 223.008s
+		[+] final score for params of 
+24.651504078574135 -- in 1361.075s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 1.0, 'reg_lambda': 
+100.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.4180221557617188s
+fit pipeline 	-- in 519.408102273941s
+eval pipeline 	-- in 3.284925937652588s
+		[*] fold 1 complete (test score of 
+4.714337206893075) -- in 526.111s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00048422813415527344s
+preprocess data 	-- in 8.15803074836731s
+fit pipeline 	-- in 595.482914686203s
+eval pipeline 	-- in 3.353062868118286s
+		[*] fold 2 complete (test score of 
+59.465161693288145) -- in 606.995s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0004019737243652344s
+preprocess data 	-- in 11.882490158081055s
+fit pipeline 	-- in 190.0233108997345s
+eval pipeline 	-- in 1.0317420959472656s
+		[*] fold 3 complete (test score of 
+9.495961715888297) -- in 202.939s
+		[+] final score for params of 
+24.55848687202317 -- in 1336.045s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+1.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.5974044799804688e-05s
+made pipeline 	-- in 1.8835067749023438e-05s
+preprocess data 	-- in 4.360276937484741s
+fit pipeline 	-- in 521.2669470310211s
+eval pipeline 	-- in 3.316988706588745s
+		[*] fold 1 complete (test score of 
+4.091726894862498) -- in 528.945s
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 0.0003859996795654297s
+preprocess data 	-- in 8.21023678779602s
+fit pipeline 	-- in 414.6278531551361s
+eval pipeline 	-- in 2.2646870613098145s
+		[*] fold 2 complete (test score of 
+51.79523703094143) -- in 425.104s
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 0.0003209114074707031s
+preprocess data 	-- in 11.913498878479004s
+fit pipeline 	-- in 103.96868014335632s
+eval pipeline 	-- in 0.6219520568847656s
+		[*] fold 3 complete (test score of 
+9.39099199661648) -- in 116.505s
+		[+] final score for params of 
+21.7593186408068 -- in 1070.554s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+1.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.3828277587890625e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 3.3393406867980957s
+fit pipeline 	-- in 338.36367893218994s
+eval pipeline 	-- in 2.1038529872894287s
+		[*] fold 1 complete (test score of 
+4.113764311698854) -- in 343.807s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0002880096435546875s
+preprocess data 	-- in 7.979556083679199s
+fit pipeline 	-- in 399.1273171901703s
+eval pipeline 	-- in 2.2348480224609375s
+		[*] fold 2 complete (test score of 
+51.75572069895673) -- in 409.343s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.00031304359436035156s
+preprocess data 	-- in 12.030691862106323s
+fit pipeline 	-- in 88.51064801216125s
+eval pipeline 	-- in 0.5414628982543945s
+		[*] fold 3 complete (test score of 
+9.360911062010004) -- in 101.084s
+		[+] final score for params of 
+21.743465357555195 -- in 854.234s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+1.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.3828277587890625e-05s
+made pipeline 	-- in 2.384185791015625e-05s
+preprocess data 	-- in 4.316316843032837s
+fit pipeline 	-- in 521.1154222488403s
+eval pipeline 	-- in 3.1946821212768555s
+		[*] fold 1 complete (test score of 
+4.101184618439874) -- in 528.627s
+split data 	-- in 1.0251998901367188e-05s
+made pipeline 	-- in 0.00041604042053222656s
+preprocess data 	-- in 8.632041931152344s
+fit pipeline 	-- in 395.31388902664185s
+eval pipeline 	-- in 2.141179084777832s
+		[*] fold 2 complete (test score of 
+51.73684165590678) -- in 406.088s
+split data 	-- in 8.344650268554688e-06s
+made pipeline 	-- in 0.0002949237823486328s
+preprocess data 	-- in 11.954324960708618s
+fit pipeline 	-- in 100.82380414009094s
+eval pipeline 	-- in 0.6075959205627441s
+		[*] fold 3 complete (test score of 
+9.213552817710694) -- in 113.387s
+		[+] final score for params of 
+21.68385969735245 -- in 1048.102s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+10.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.5020370483398438e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.4025890827178955s
+fit pipeline 	-- in 518.7529978752136s
+eval pipeline 	-- in 3.301598072052002s
+		[*] fold 1 complete (test score of 
+4.331729389067681) -- in 525.457s
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 0.00045490264892578125s
+preprocess data 	-- in 8.229338884353638s
+fit pipeline 	-- in 591.5806367397308s
+eval pipeline 	-- in 3.4380249977111816s
+		[*] fold 2 complete (test score of 
+53.56869420741706) -- in 603.249s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0004382133483886719s
+preprocess data 	-- in 11.90165376663208s
+fit pipeline 	-- in 122.25082421302795s
+eval pipeline 	-- in 0.7080519199371338s
+		[*] fold 3 complete (test score of 
+9.817285068727989) -- in 134.862s
+		[+] final score for params of 
+22.57256955507091 -- in 1263.569s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+10.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.71661376953125e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 4.384355068206787s
+fit pipeline 	-- in 515.087483882904s
+eval pipeline 	-- in 3.301786184310913s
+		[*] fold 1 complete (test score of 
+4.346762197456185) -- in 522.774s
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 0.0005381107330322266s
+preprocess data 	-- in 8.369617938995361s
+fit pipeline 	-- in 593.4245419502258s
+eval pipeline 	-- in 3.3454620838165283s
+		[*] fold 2 complete (test score of 
+53.10242501448749) -- in 605.141s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.00042700767517089844s
+preprocess data 	-- in 12.039780855178833s
+fit pipeline 	-- in 136.4671401977539s
+eval pipeline 	-- in 0.809279203414917s
+		[*] fold 3 complete (test score of 
+9.765232812754324) -- in 149.317s
+		[+] final score for params of 
+22.404806674899334 -- in 1277.233s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+10.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 2.0265579223632812e-05s
+made pipeline 	-- in 2.8848648071289062e-05s
+preprocess data 	-- in 3.5215327739715576s
+fit pipeline 	-- in 519.2862977981567s
+eval pipeline 	-- in 3.2935192584991455s
+		[*] fold 1 complete (test score of 
+4.374361279293584) -- in 526.102s
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 0.0004642009735107422s
+preprocess data 	-- in 8.156723022460938s
+fit pipeline 	-- in 617.0008120536804s
+eval pipeline 	-- in 3.4069812297821045s
+		[*] fold 2 complete (test score of 
+53.185421948378284) -- in 628.566s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.0004363059997558594s
+preprocess data 	-- in 11.542989253997803s
+fit pipeline 	-- in 130.87719202041626s
+eval pipeline 	-- in 0.7366626262664795s
+		[*] fold 3 complete (test score of 
+9.610348075899827) -- in 143.158s
+		[+] final score for params of 
+22.390043767857232 -- in 1297.826s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.1, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.5974044799804688e-05s
+made pipeline 	-- in 2.47955322265625e-05s
+preprocess data 	-- in 4.426249980926514s
+fit pipeline 	-- in 485.9220848083496s
+eval pipeline 	-- in 2.9474871158599854s
+		[*] fold 1 complete (test score of 
+4.076693460004713) -- in 493.296s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.0003719329833984375s
+preprocess data 	-- in 8.621714115142822s
+fit pipeline 	-- in 222.81257390975952s
+eval pipeline 	-- in 1.2441468238830566s
+		[*] fold 2 complete (test score of 
+53.760596983245) -- in 232.679s
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 0.00019812583923339844s
+preprocess data 	-- in 12.104817152023315s
+fit pipeline 	-- in 93.9745671749115s
+eval pipeline 	-- in 0.5769498348236084s
+		[*] fold 3 complete (test score of 
+9.359387598587572) -- in 106.657s
+		[+] final score for params of 
+22.39889268061243 -- in 832.633s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.1, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.7881393432617188e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 3.4141390323638916s
+fit pipeline 	-- in 318.9712960720062s
+eval pipeline 	-- in 1.9695749282836914s
+		[*] fold 1 complete (test score of 
+4.148721344061064) -- in 324.355s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0002651214599609375s
+preprocess data 	-- in 8.163799047470093s
+fit pipeline 	-- in 249.324303150177s
+eval pipeline 	-- in 1.3979299068450928s
+		[*] fold 2 complete (test score of 
+54.04211059169404) -- in 258.887s
+split data 	-- in 9.775161743164062e-06s
+made pipeline 	-- in 0.00021505355834960938s
+preprocess data 	-- in 11.942209005355835s
+fit pipeline 	-- in 84.61772012710571s
+eval pipeline 	-- in 0.5126771926879883s
+		[*] fold 3 complete (test score of 
+9.339608544698883) -- in 97.073s
+		[+] final score for params of 
+22.510146826817998 -- in 680.316s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.1, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 1.9788742065429688e-05s
+preprocess data 	-- in 4.402566909790039s
+fit pipeline 	-- in 397.04663133621216s
+eval pipeline 	-- in 2.465181350708008s
+		[*] fold 1 complete (test score of 
+4.11966960728664) -- in 403.915s
+split data 	-- in 1.5735626220703125e-05s
+made pipeline 	-- in 0.00031495094299316406s
+preprocess data 	-- in 8.225456953048706s
+fit pipeline 	-- in 225.70887184143066s
+eval pipeline 	-- in 1.2774600982666016s
+		[*] fold 2 complete (test score of 
+53.60414958871179) -- in 235.213s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.00019311904907226562s
+preprocess data 	-- in 11.677210807800293s
+fit pipeline 	-- in 86.05097198486328s
+eval pipeline 	-- in 0.5354750156402588s
+		[*] fold 3 complete (test score of 
+8.934658985815632) -- in 98.264s
+		[+] final score for params of 
+22.219492727271355 -- in 737.392s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.6927719116210938e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.4256391525268555s
+fit pipeline 	-- in 313.5102708339691s
+eval pipeline 	-- in 1.9526548385620117s
+		[*] fold 1 complete (test score of 
+4.147423889577034) -- in 318.889s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0002620220184326172s
+preprocess data 	-- in 8.217146873474121s
+fit pipeline 	-- in 154.85460710525513s
+eval pipeline 	-- in 0.9139988422393799s
+		[*] fold 2 complete (test score of 
+54.080931264511165) -- in 163.987s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0001857280731201172s
+preprocess data 	-- in 11.784380912780762s
+fit pipeline 	-- in 92.74375486373901s
+eval pipeline 	-- in 0.5524132251739502s
+		[*] fold 3 complete (test score of 
+9.297494569871333) -- in 105.081s
+		[+] final score for params of 
+22.50861657465318 -- in 587.957s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.811981201171875e-05s
+made pipeline 	-- in 2.5033950805664062e-05s
+preprocess data 	-- in 4.476103782653809s
+fit pipeline 	-- in 318.02839398384094s
+eval pipeline 	-- in 1.9970638751983643s
+		[*] fold 1 complete (test score of 
+4.146117493761156) -- in 324.502s
+split data 	-- in 1.2636184692382812e-05s
+made pipeline 	-- in 0.0002639293670654297s
+preprocess data 	-- in 8.214062690734863s
+fit pipeline 	-- in 158.81735396385193s
+eval pipeline 	-- in 0.9364900588989258s
+		[*] fold 2 complete (test score of 
+53.931115557939705) -- in 167.969s
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 0.00016880035400390625s
+preprocess data 	-- in 11.68618106842041s
+fit pipeline 	-- in 87.56299328804016s
+eval pipeline 	-- in 0.5384142398834229s
+		[*] fold 3 complete (test score of 
+9.330835215299935) -- in 99.788s
+		[+] final score for params of 
+22.469356089000268 -- in 592.26s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.8358230590820312e-05s
+made pipeline 	-- in 1.8835067749023438e-05s
+preprocess data 	-- in 3.4007129669189453s
+fit pipeline 	-- in 392.4011068344116s
+eval pipeline 	-- in 2.4020159244537354s
+		[*] fold 1 complete (test score of 
+4.106437802256439) -- in 398.204s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0002999305725097656s
+preprocess data 	-- in 8.478779077529907s
+fit pipeline 	-- in 248.6706531047821s
+eval pipeline 	-- in 1.409524917602539s
+		[*] fold 2 complete (test score of 
+54.08182863972522) -- in 258.56s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.0002200603485107422s
+preprocess data 	-- in 11.453789949417114s
+fit pipeline 	-- in 84.22908806800842s
+eval pipeline 	-- in 0.5092728137969971s
+		[*] fold 3 complete (test score of 
+8.921469512829338) -- in 96.193s
+		[+] final score for params of 
+22.369911984936994 -- in 752.957s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.01, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 2.09808349609375e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 4.287635087966919s
+fit pipeline 	-- in 321.2236981391907s
+eval pipeline 	-- in 2.0165910720825195s
+		[*] fold 1 complete (test score of 
+4.147191934661575) -- in 327.528s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00026988983154296875s
+preprocess data 	-- in 8.3541100025177s
+fit pipeline 	-- in 169.38853573799133s
+eval pipeline 	-- in 1.0055968761444092s
+		[*] fold 2 complete (test score of 
+54.286405905003804) -- in 178.749s
+split data 	-- in 8.821487426757812e-06s
+made pipeline 	-- in 0.00017595291137695312s
+preprocess data 	-- in 12.004229068756104s
+fit pipeline 	-- in 97.32450914382935s
+eval pipeline 	-- in 0.5850677490234375s
+		[*] fold 3 complete (test score of 
+9.26972062294691) -- in 109.915s
+		[+] final score for params of 
+22.56777282087076 -- in 616.193s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.01, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 2.002716064453125e-05s
+made pipeline 	-- in 2.002716064453125e-05s
+preprocess data 	-- in 3.448906421661377s
+fit pipeline 	-- in 333.64911007881165s
+eval pipeline 	-- in 2.07051682472229s
+		[*] fold 1 complete (test score of 
+4.141894188639263) -- in 339.169s
+split data 	-- in 1.4066696166992188e-05s
+made pipeline 	-- in 0.0002989768981933594s
+preprocess data 	-- in 8.280953884124756s
+fit pipeline 	-- in 180.0950448513031s
+eval pipeline 	-- in 1.0368518829345703s
+		[*] fold 2 complete (test score of 
+54.02422811234293) -- in 189.414s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00018024444580078125s
+preprocess data 	-- in 11.73691701889038s
+fit pipeline 	-- in 88.7142117023468s
+eval pipeline 	-- in 0.5225949287414551s
+		[*] fold 3 complete (test score of 
+9.370738937924175) -- in 100.975s
+		[+] final score for params of 
+22.512287079635456 -- in 629.558s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+0.01, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 2.0265579223632812e-05s
+made pipeline 	-- in 2.6941299438476562e-05s
+preprocess data 	-- in 4.445969820022583s
+fit pipeline 	-- in 402.9268057346344s
+eval pipeline 	-- in 2.4926090240478516s
+		[*] fold 1 complete (test score of 
+4.092654151303769) -- in 409.866s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0003349781036376953s
+preprocess data 	-- in 8.549296140670776s
+fit pipeline 	-- in 187.35916900634766s
+eval pipeline 	-- in 1.0897679328918457s
+		[*] fold 2 complete (test score of 
+54.038469407268686) -- in 196.999s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.00018477439880371094s
+preprocess data 	-- in 11.712641954421997s
+fit pipeline 	-- in 86.49218916893005s
+eval pipeline 	-- in 0.5336570739746094s
+		[*] fold 3 complete (test score of 
+9.141990570210792) -- in 98.739s
+		[+] final score for params of 
+22.42437137626108 -- in 705.605s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+100.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 2.002716064453125e-05s
+made pipeline 	-- in 2.6226043701171875e-05s
+preprocess data 	-- in 3.5451955795288086s
+fit pipeline 	-- in 527.6250698566437s
+eval pipeline 	-- in 3.336266040802002s
+		[*] fold 1 complete (test score of 
+4.695049393932677) -- in 534.507s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00039386749267578125s
+preprocess data 	-- in 8.367816925048828s
+fit pipeline 	-- in 604.3719427585602s
+eval pipeline 	-- in 3.359281063079834s
+		[*] fold 2 complete (test score of 
+59.69588744870649) -- in 616.1s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.0004439353942871094s
+preprocess data 	-- in 11.811500072479248s
+fit pipeline 	-- in 201.9664978981018s
+eval pipeline 	-- in 1.0966730117797852s
+		[*] fold 3 complete (test score of 
+9.574617089516163) -- in 214.876s
+		[+] final score for params of 
+24.655184644051776 -- in 1365.483s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+100.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.9073486328125e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 4.369623184204102s
+fit pipeline 	-- in 537.1226427555084s
+eval pipeline 	-- in 3.412966012954712s
+		[*] fold 1 complete (test score of 
+4.693563675806859) -- in 544.906s
+split data 	-- in 1.811981201171875e-05s
+made pipeline 	-- in 0.0004470348358154297s
+preprocess data 	-- in 8.329753875732422s
+fit pipeline 	-- in 620.4445941448212s
+eval pipeline 	-- in 3.4423561096191406s
+		[*] fold 2 complete (test score of 
+59.635904959782366) -- in 632.218s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0004458427429199219s
+preprocess data 	-- in 11.823698997497559s
+fit pipeline 	-- in 216.4528350830078s
+eval pipeline 	-- in 1.149049997329712s
+		[*] fold 3 complete (test score of 
+9.6312553527558) -- in 229.427s
+		[+] final score for params of 
+24.653574662781676 -- in 1406.551s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 10.0, 'reg_lambda': 
+100.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.7881393432617188e-05s
+made pipeline 	-- in 1.9788742065429688e-05s
+preprocess data 	-- in 4.80730414390564s
+fit pipeline 	-- in 550.1040351390839s
+eval pipeline 	-- in 3.454274892807007s
+		[*] fold 1 complete (test score of 
+4.71314243978286) -- in 558.366s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.00046706199645996094s
+preprocess data 	-- in 7.825724124908447s
+fit pipeline 	-- in 650.9383220672607s
+eval pipeline 	-- in 3.5719430446624756s
+		[*] fold 2 complete (test score of 
+59.47097863464849) -- in 662.337s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.00048828125s
+preprocess data 	-- in 11.550363063812256s
+fit pipeline 	-- in 211.017098903656s
+eval pipeline 	-- in 1.1041131019592285s
+		[*] fold 3 complete (test score of 
+9.504629481357085) -- in 223.673s
+		[+] final score for params of 
+24.562916851929476 -- in 1444.377s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+1.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.9788742065429688e-05s
+made pipeline 	-- in 2.3126602172851562e-05s
+preprocess data 	-- in 4.322671890258789s
+fit pipeline 	-- in 566.5109298229218s
+eval pipeline 	-- in 3.52691912651062s
+		[*] fold 1 complete (test score of 
+4.0562048230370715) -- in 574.361s
+split data 	-- in 1.2636184692382812e-05s
+made pipeline 	-- in 0.0004379749298095703s
+preprocess data 	-- in 8.161096096038818s
+fit pipeline 	-- in 339.99131965637207s
+eval pipeline 	-- in 1.824767827987671s
+		[*] fold 2 complete (test score of 
+51.76402889170137) -- in 349.978s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0002989768981933594s
+preprocess data 	-- in 11.710476875305176s
+fit pipeline 	-- in 112.42843103408813s
+eval pipeline 	-- in 0.7664790153503418s
+		[*] fold 3 complete (test score of 
+9.367779877061485) -- in 124.906s
+		[+] final score for params of 
+21.72933786393331 -- in 1049.246s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+1.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.9311904907226562e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 4.6361589431762695s
+fit pipeline 	-- in 563.3490648269653s
+eval pipeline 	-- in 3.5106329917907715s
+		[*] fold 1 complete (test score of 
+4.062988078712106) -- in 571.497s
+split data 	-- in 9.775161743164062e-06s
+made pipeline 	-- in 0.00043392181396484375s
+preprocess data 	-- in 8.560070991516113s
+fit pipeline 	-- in 423.1433777809143s
+eval pipeline 	-- in 2.2679638862609863s
+		[*] fold 2 complete (test score of 
+51.751398642439035) -- in 433.973s
+split data 	-- in 9.059906005859375e-06s
+made pipeline 	-- in 0.00034618377685546875s
+preprocess data 	-- in 11.556071043014526s
+fit pipeline 	-- in 93.13664484024048s
+eval pipeline 	-- in 0.5976970195770264s
+		[*] fold 3 complete (test score of 
+9.365666287906846) -- in 105.291s
+		[+] final score for params of 
+21.726684336352662 -- in 1110.761s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+1.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.6927719116210938e-05s
+made pipeline 	-- in 2.47955322265625e-05s
+preprocess data 	-- in 4.3214640617370605s
+fit pipeline 	-- in 276.0938518047333s
+eval pipeline 	-- in 1.7275519371032715s
+		[*] fold 1 complete (test score of 
+4.092054829509734) -- in 282.143s
+split data 	-- in 1.6927719116210938e-05s
+made pipeline 	-- in 0.00026702880859375s
+preprocess data 	-- in 8.228960990905762s
+fit pipeline 	-- in 502.59891390800476s
+eval pipeline 	-- in 2.663702964782715s
+		[*] fold 2 complete (test score of 
+51.74631994103782) -- in 513.493s
+split data 	-- in 9.298324584960938e-06s
+made pipeline 	-- in 0.000431060791015625s
+preprocess data 	-- in 11.758825778961182s
+fit pipeline 	-- in 109.25006914138794s
+eval pipeline 	-- in 0.6821277141571045s
+		[*] fold 3 complete (test score of 
+9.307654234703683) -- in 121.692s
+		[+] final score for params of 
+21.715343001750412 -- in 917.329s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+10.0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 2.09808349609375e-05s
+made pipeline 	-- in 2.193450927734375e-05s
+preprocess data 	-- in 4.463664293289185s
+fit pipeline 	-- in 565.8939161300659s
+eval pipeline 	-- in 3.557554006576538s
+		[*] fold 1 complete (test score of 
+4.339627852759967) -- in 573.916s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.0005900859832763672s
+preprocess data 	-- in 8.876166820526123s
+fit pipeline 	-- in 657.9867541790009s
+eval pipeline 	-- in 3.570466995239258s
+		[*] fold 2 complete (test score of 
+53.37327800807718) -- in 670.435s
+split data 	-- in 8.344650268554688e-06s
+made pipeline 	-- in 0.0005109310150146484s
+preprocess data 	-- in 11.706433773040771s
+fit pipeline 	-- in 135.16880011558533s
+eval pipeline 	-- in 0.7659451961517334s
+		[*] fold 3 complete (test score of 
+9.81385615877791) -- in 147.643s
+		[+] final score for params of 
+22.508920673205022 -- in 1391.993s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+10.0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.8358230590820312e-05s
+made pipeline 	-- in 2.09808349609375e-05s
+preprocess data 	-- in 3.8495311737060547s
+fit pipeline 	-- in 563.7763781547546s
+eval pipeline 	-- in 3.5035810470581055s
+		[*] fold 1 complete (test score of 
+4.353921676470176) -- in 571.13s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00045013427734375s
+preprocess data 	-- in 8.181062698364258s
+fit pipeline 	-- in 651.8607680797577s
+eval pipeline 	-- in 3.6022870540618896s
+		[*] fold 2 complete (test score of 
+53.09919527937917) -- in 663.645s
+split data 	-- in 1.0728836059570312e-05s
+made pipeline 	-- in 0.0005030632019042969s
+preprocess data 	-- in 11.40422797203064s
+fit pipeline 	-- in 151.0763771533966s
+eval pipeline 	-- in 0.8885209560394287s
+		[*] fold 3 complete (test score of 
+9.762863858524955) -- in 163.37s
+		[+] final score for params of 
+22.405326938124762 -- in 1398.146s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+10.0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 1.9788742065429688e-05s
+made pipeline 	-- in 2.2649765014648438e-05s
+preprocess data 	-- in 4.477179288864136s
+fit pipeline 	-- in 580.8667960166931s
+eval pipeline 	-- in 3.634984016418457s
+		[*] fold 1 complete (test score of 
+4.362837701541109) -- in 588.979s
+split data 	-- in 1.1920928955078125e-05s
+made pipeline 	-- in 0.0004811286926269531s
+preprocess data 	-- in 8.180601835250854s
+fit pipeline 	-- in 662.9694380760193s
+eval pipeline 	-- in 3.6766700744628906s
+		[*] fold 2 complete (test score of 
+53.08894644145635) -- in 674.828s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0004839897155761719s
+preprocess data 	-- in 11.761669158935547s
+fit pipeline 	-- in 141.68463110923767s
+eval pipeline 	-- in 0.8451220989227295s
+		[*] fold 3 complete (test score of 
+9.590681213374737) -- in 154.293s
+		[+] final score for params of 
+22.347488452124065 -- in 1418.1s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0.1, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.9073486328125e-05s
+made pipeline 	-- in 1.9788742065429688e-05s
+preprocess data 	-- in 4.693962097167969s
+fit pipeline 	-- in 330.8249092102051s
+eval pipeline 	-- in 2.0113940238952637s
+		[*] fold 1 complete (test score of 
+4.106308357326172) -- in 337.531s
+split data 	-- in 1.3113021850585938e-05s
+made pipeline 	-- in 0.0004379749298095703s
+preprocess data 	-- in 7.858804941177368s
+fit pipeline 	-- in 207.85654497146606s
+eval pipeline 	-- in 1.2221548557281494s
+		[*] fold 2 complete (test score of 
+53.622325271855416) -- in 216.939s
+split data 	-- in 8.106231689453125e-06s
+made pipeline 	-- in 0.00021505355834960938s
+preprocess data 	-- in 11.3891761302948s
+fit pipeline 	-- in 102.04979372024536s
+eval pipeline 	-- in 0.6411428451538086s
+		[*] fold 3 complete (test score of 
+9.353877299722637) -- in 114.081s
+		[+] final score for params of 
+22.36083697630141 -- in 668.551s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0.1, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.6927719116210938e-05s
+made pipeline 	-- in 2.384185791015625e-05s
+preprocess data 	-- in 4.395892143249512s
+fit pipeline 	-- in 372.9210660457611s
+eval pipeline 	-- in 2.27736496925354s
+		[*] fold 1 complete (test score of 
+4.153914585588855) -- in 379.595s
+split data 	-- in 1.2159347534179688e-05s
+made pipeline 	-- in 0.0003039836883544922s
+preprocess data 	-- in 8.251859903335571s
+fit pipeline 	-- in 231.9003462791443s
+eval pipeline 	-- in 1.2926661968231201s
+		[*] fold 2 complete (test score of 
+53.41612689686443) -- in 241.446s
+split data 	-- in 1.0967254638671875e-05s
+made pipeline 	-- in 0.00023031234741210938s
+preprocess data 	-- in 11.662690877914429s
+fit pipeline 	-- in 93.9609842300415s
+eval pipeline 	-- in 0.6051819324493408s
+		[*] fold 3 complete (test score of 
+9.342934793432422) -- in 106.23s
+		[+] final score for params of 
+22.304325425295236 -- in 727.271s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0.1, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 2.1219253540039062e-05s
+made pipeline 	-- in 2.8848648071289062e-05s
+preprocess data 	-- in 4.660631895065308s
+fit pipeline 	-- in 401.6279878616333s
+eval pipeline 	-- in 2.410590887069702s
+		[*] fold 1 complete (test score of 
+4.107853867328796) -- in 408.7s
+split data 	-- in 1.52587890625e-05s
+made pipeline 	-- in 0.0003058910369873047s
+preprocess data 	-- in 8.717307806015015s
+fit pipeline 	-- in 237.75332689285278s
+eval pipeline 	-- in 1.335726022720337s
+		[*] fold 2 complete (test score of 
+53.51101525739378) -- in 247.807s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.00023412704467773438s
+preprocess data 	-- in 11.334446907043457s
+fit pipeline 	-- in 93.82049894332886s
+eval pipeline 	-- in 0.5975971221923828s
+		[*] fold 3 complete (test score of 
+8.924873139656707) -- in 105.753s
+		[+] final score for params of 
+22.181247421459762 -- in 762.261s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0, 'seed': 1956, 'subsample': 0.66}
+split data 	-- in 1.71661376953125e-05s
+made pipeline 	-- in 2.4080276489257812e-05s
+preprocess data 	-- in 4.391308069229126s
+fit pipeline 	-- in 293.79242491722107s
+eval pipeline 	-- in 1.8017470836639404s
+		[*] fold 1 complete (test score of 
+4.194586230265633) -- in 299.986s
+split data 	-- in 1.3828277587890625e-05s
+made pipeline 	-- in 0.00027179718017578125s
+preprocess data 	-- in 8.082596778869629s
+fit pipeline 	-- in 178.81634378433228s
+eval pipeline 	-- in 1.0877070426940918s
+		[*] fold 2 complete (test score of 
+54.00339884024079) -- in 187.988s
+split data 	-- in 1.0013580322265625e-05s
+made pipeline 	-- in 0.0002071857452392578s
+preprocess data 	-- in 11.66451096534729s
+fit pipeline 	-- in 103.56404495239258s
+eval pipeline 	-- in 0.6595439910888672s
+		[*] fold 3 complete (test score of 
+9.256526235242706) -- in 115.889s
+		[+] final score for params of 
+22.48483710191638 -- in 603.863s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0, 'seed': 14, 'subsample': 0.66}
+split data 	-- in 1.71661376953125e-05s
+made pipeline 	-- in 2.288818359375e-05s
+preprocess data 	-- in 4.642946004867554s
+fit pipeline 	-- in 223.47615098953247s
+eval pipeline 	-- in 1.4924910068511963s
+		[*] fold 1 complete (test score of 
+4.17267744561633) -- in 229.612s
+split data 	-- in 1.52587890625e-05s
+made pipeline 	-- in 0.00020599365234375s
+preprocess data 	-- in 8.146528005599976s
+fit pipeline 	-- in 174.16096019744873s
+eval pipeline 	-- in 1.069016933441162s
+		[*] fold 2 complete (test score of 
+53.81290779910117) -- in 183.377s
+split data 	-- in 7.867813110351562e-06s
+made pipeline 	-- in 0.00018477439880371094s
+preprocess data 	-- in 11.980215072631836s
+fit pipeline 	-- in 99.04429292678833s
+eval pipeline 	-- in 0.6594390869140625s
+		[*] fold 3 complete (test score of 
+9.315056678592535) -- in 111.685s
+		[+] final score for params of 
+22.433547307770013 -- in 524.675s
+	[*] looking at hyperparameters 
+{'colsample_bytree': 0.9, 'learning_rate': 0.03, 
+'n_estimators': 1000, 'reg_alpha': 0.1, 'reg_lambda': 
+0, 'seed': 3, 'subsample': 0.66}
+split data 	-- in 2.3126602172851562e-05s
+made pipeline 	-- in 2.193450927734375e-05s
+preprocess data 	-- in 3.892934799194336s
+*****CONTINUES BELOW*****
