@@ -31,6 +31,10 @@ conda environment by running `conda env -n migr create
 * matplotlib 3.7.1
 * seaborn 0.12.2
 * scikit-learn 1.3.0
+* shap 0.42.1
+* joblib 1.3.2
+* xgboost 1.7.6
+
 
 
 <sub><sup>1</sup>*This includes the 27 EU member states as well as 
